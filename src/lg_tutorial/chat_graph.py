@@ -5,7 +5,7 @@ from langchain_core.messages import BaseMessage, HumanMessage
 from langchain_openai import ChatOpenAI
 from langgraph.graph import END, START, MessagesState, StateGraph
 
-load_dotenv()
+load_dotenv(".env.local")
 
 
 def build_model() -> ChatOpenAI:
