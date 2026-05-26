@@ -15,6 +15,8 @@ dependencies = [
 
 [project.scripts]
 lg-tutorial = "lg_tutorial.main:main"
+lg-parallel = "lg_tutorial.parallel_graph:run_demo"
+lg-subgraph = "lg_tutorial.subgraph:run_demo"
 
 [build-system]
 requires = ["uv_build>=0.9.13,<0.10.0"]
